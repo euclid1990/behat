@@ -1,4 +1,4 @@
-#### Behat, Mink and Selenium
+#### BDD Testing with Behat, Mink and Selenium (Chrome webdriver)
 
 `# behat --init`
 
