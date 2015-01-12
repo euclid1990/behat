@@ -1,0 +1,20 @@
+default:
+    suites:
+        functional:
+            paths: [ %paths.base%/features/functional ]
+            contexts: [ FeatureContext ]
+    formatters:
+        pretty:
+            parameters:
+                output_styles:
+                    comment: [ black, white, [ underscore ] ]
+    extensions:
+        Behat\MinkExtension:
+            base_url: http://framgia.co.jp
+            default_session: 'selenium2'
+            browser_name: chrome
+            goutte: ~
+            selenium2: ~
+
+imports:
+    - features/profile/home.yml

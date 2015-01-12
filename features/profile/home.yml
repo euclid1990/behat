@@ -1,0 +1,10 @@
+home:
+    suites:
+        functional:
+            paths: [ %paths.base%/features/functional ]
+            contexts: [ FeatureContext ]
+    formatters:
+        pretty:
+            parameters:
+                output_styles:
+                    comment: [ black, white, [ underscore ] ]
